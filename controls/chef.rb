@@ -28,4 +28,9 @@ control 'chef-client installed and a non-EOL version' do
       its('stderr') { should be_empty } # will be an error if not installed
       its('stdout') { should match /Version : 1[3-9]/ }
     end
+  elsif os[:family] == :aix
+    describe command('lslpp -lcq chef') do
+      its('stderr') { should be_empty }
+      its('stdout') { should match /\:chef\:1[3-9]/ }
+    end
   end
