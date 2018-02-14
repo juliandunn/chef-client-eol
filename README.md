@@ -1,4 +1,4 @@
-# InSpec Profile to Check EOL Chef Clients
+# InSpec profile to check EOL Chef clients
 
 This is an InSpec profile to make sure your Chef client is not an
 EOL version.
