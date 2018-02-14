@@ -1,8 +1,8 @@
 name: chef-client-eol
-title: Check for EOL Chef Client versions
-maintainer: Julian Dunn
+title: Check for EOL Chef client versions
+maintainer: The Chef Training Team
 copyright: Chef Software Inc.
-copyright_email: jdunn@chef.io
+copyright_email: training@chef.io
 license: Apache-2.0
 summary: InSpec profile to check whether Chef client is an EOL version.
 version: 0.0.1
